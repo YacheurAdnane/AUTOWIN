@@ -1,4 +1,4 @@
-# duplicat_env
+# AUTOWIN
 
 Pick a road on a map, press Generate, and get a copy of that place for CARLA, Autoware and RoadRunner.
 
@@ -55,7 +55,7 @@ Python packages: `pip install -r requirements.txt`, plus the `carla` module that
 ## Start
 
 ```bash
-cd ~/duplicat_env
+cd ~/AUTOWIN
 ./run.sh          # opens http://127.0.0.1:8777 (next free port if taken)
 ```
 
@@ -190,7 +190,7 @@ If RoadRunner is installed (found automatically under `/usr/local/RoadRunner_R20
 
 Open `roadrunner_project/` in RoadRunner to change anything, then export to CARLA from the RoadRunner menu. That gives you two CARLA versions to choose from. The generated FBX in `carla/` matches the Autoware maps exactly. The RoadRunner one has proper junction geometry and nicer assets.
 
-A new RoadRunner project copies the whole asset library (about 2 GB). To avoid that on every run, fill "Existing project" in the page (or `--set roadrunner_project=...`). The scene and its props then go into that project under `Assets/duplicat_env/<name>/`.
+A new RoadRunner project copies the whole asset library (about 2 GB). To avoid that on every run, fill "Existing project" in the page (or `--set roadrunner_project=...`). The scene and its props then go into that project under `Assets/AUTOWIN/<name>/`.
 
 The HD Map import needs the RoadRunner Scene Builder add-on, which your license has.
 
@@ -325,7 +325,7 @@ output/<name>/           results (created at run time, not in the repo)
 
 ## Copyright and contact
 
-duplicat_env was designed and built by Adnane Yacheur. Copyright (c) 2026 Adnane Yacheur, all rights reserved; see [LICENSE](LICENSE).
+AUTOWIN was designed and built by Adnane Yacheur. Copyright (c) 2026 Adnane Yacheur, all rights reserved; see [LICENSE](LICENSE).
 
 For questions, collaboration or permission to reuse the code, write to adnaneyacheur@gmail.com.
 
